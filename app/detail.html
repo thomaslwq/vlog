@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>vlog </title>
+
+    <!-- Custom styling plus plugins -->
+
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+
+<body class="nav-md">
+
+    <div class="container body">
+
+
+        <div class="main_container">
+
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-home"></i> <span>vlog</span></a>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <!-- menu prile quick info -->
+                    <div class="profile">
+                        <div class="profile_pic">
+                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>欢迎来到,</span>
+                            <h2>可视化日志工具</h2>
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                        <div class="menu_section">
+                            <h3 style="opacity: 0">主菜单</h3>
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-home"></i>管理 <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" >
+                                        <li><a href="index.html">主页</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-bar-chart-o"></i> 相关链接 <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="https://github.com/thomaslwq/" target="_blank">Github</a>
+                                        </li>
+                                        <li><a target="_blank" href="http://my.oschina.net/u/2562868/blog">Blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- /sidebar menu -->
+
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/img.jpg" alt="">vlog
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                  <li><a href="index.html"><i class="fa fa-home pull-right"></i>个人简介</a>
+                                    </li>
+                                    <li><a href="http://my.oschina.net/u/2562868/blog" target="_blank"><i class="fa fa-archive  pull-right"></i>博客</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            <!-- /top navigation -->
+
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+
+
+                <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                          <h3>20150212.log <small>文件内容</small></h3>
+                        </div>
+                    <div class="clearfix"></div>
+                        <div class="title_right pull-right">
+                             <div class="col-md-3 col-sm-12 col-xs-12 form-group">
+                                  <input type="text" placeholder="路径或关键字" class="form-control">
+                             </div>
+                             <div class="col-md-3 col-sm-12 col-xs-12 form-group">
+                               <select class="form-control">
+                                 <option selected>根据动作选择</option>
+                                 <option >Delete</option>
+                                 <option >search</option>
+                               </select>
+                             </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 form-group">
+                               <select class="form-control">
+                                 <option selected>根据文件扩展选择</option>
+
+                                 <option >php</option>
+                                 <option >java</option>
+                               </select>
+                             </div>
+                          <div class="col-md-3 col-sm-12 col-xs-12 form-group">
+                             <button class="btn btn-sm btn-primary">确定</button>
+                          </div>
+
+
+
+                        </div>
+
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>内容列表</h2>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <!-- start project list -->
+                                    <table class="table table-striped projects">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 5%">序号</th>
+                                                <th style="width: 20%">日期</th>
+                                                <th>时间</th>
+                                                <th>动作 </th>
+                                                <th>路径</th>
+                                                <th>文件</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <small>2016-01-03</small>
+                                                </td>
+                                                <td>
+                                                  <small> 00:01:42</small>
+                                                </td>
+
+                                                <td>
+                                                  <small>CREATE</small>
+                                                <td>
+                                                  <small> /home/wwwroot/lvtao.net/web/data/session/ </small>
+                                                </td>
+                                                <td>
+
+                                                  <small>a.php </small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>
+                                                    <small>2016-01-03</small>
+                                                </td>
+                                                <td>
+                                                  <small> 00:01:42</small>
+                                                </td>
+
+                                                <td>
+                                                  <small>CREATE</small>
+                                                <td>
+                                                  <small> /home/wwwroot/lvtao.net/web/data/session/ </small>
+                                                </td>
+                                                <td>
+
+                                                  <small>a.php </small>
+                                                </td>
+                                            </tr>
+                                           <tr>
+                                                <td>3</td>
+                                                <td>
+                                                    <small>2016-01-03</small>
+                                                </td>
+                                                <td>
+                                                  <small> 00:01:42</small>
+                                                </td>
+
+                                                <td>
+                                                  <small>CREATE</small>
+                                                <td>
+                                                  <small> /home/wwwroot/lvtao.net/web/data/session/ </small>
+                                                </td>
+                                                <td>
+
+                                                  <small>a.php </small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>
+                                                    <small>2016-01-03</small>
+                                                </td>
+                                                <td>
+                                                  <small> 00:01:42</small>
+                                                </td>
+
+                                                <td>
+                                                  <small>CREATE</small>
+                                                <td>
+                                                  <small> /home/wwwroot/lvtao.net/web/data/session/ </small>
+                                                </td>
+                                                <td>
+
+                                                  <small>a.php </small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>
+                                                    <small>2016-01-03</small>
+                                                </td>
+                                                <td>
+                                                  <small> 00:01:42</small>
+                                                </td>
+
+                                                <td>
+                                                  <small>CREATE</small>
+                                                <td>
+                                                  <small> /home/wwwroot/lvtao.net/web/data/session/ </small>
+                                                </td>
+                                                <td>
+
+                                                  <small>a.php </small>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- end project list -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- /page content -->
+
+        </div>
+    </div>
+    <!-- build:js(.) scripts/vendor.js -->
+        <!-- bower:js -->
+        <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js(.) scripts/plugins.js -->
+   <!-- endbuild -->
+
+
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>
